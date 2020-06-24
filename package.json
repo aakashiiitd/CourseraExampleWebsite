@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    //"deploy": "gh-pages -d dist",
+    "browser-sync": "browser-sync start --server --directory --files \"*\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://aakashiiitd.github.io/HTML-CSS-JavaScript",
+  //"homepage": "https://aakashiiitd.github.io/HTML-CSS-JavaScript",
   "dependencies": {
+    "browser-sync": "^2.26.7",
     "gh-pages": "^3.1.0"
   }
 }
