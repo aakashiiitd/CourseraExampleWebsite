@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d ./\"week 3\"/Assignment_3",
+    "deploy": "gh-pages -d ./\"week 5\"",
     "browser-sync": "browser-sync start --server --directory --files \"*\""
   },
   "keywords": [],
